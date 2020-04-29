@@ -6,11 +6,11 @@ class Footer extends React.Component {
         return(     
             <footer className='bloc_page'>
                 <div className='com'>
-                <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-cocktail-png-6.png" alt="logo" title="logo"></img>
-                    <h3>GuestBook</h3>
-                    <p>The last comment :</p>
-                    <p>"This cocktail was Great"</p>
-                    <p>14 april 2020</p> {/*ajouter l'aplication date  */}
+                <img src="https://img.bfmtv.com/c/1000/600/a74/2c4ede7b5a93ac35480ee63a1bb37.jpeg" alt="logo" title="logo"></img>
+                    <h3>the last visit</h3>
+                    <p>The last visit :</p>
+                    <p>"This museum was  Great"</p>
+                    <p>28 april 2020</p> {/*ajouter l'aplication date  */}
                 </div>
                 <div className='contact'>
                     <h3>Contact</h3>
@@ -19,9 +19,9 @@ class Footer extends React.Component {
                 </div>
                 <div className='copiright'>
                     <p>copyright by lens78inc2020</p>
-                    <p>Application Cocktail Finder</p>
-                    <p className='phrases'>"Excessive drinking is </p>
-                    <p className='phrases'>dangerous for the health"</p>
+                    <p>Travel at the museum</p>
+                    <p className='phrases'>"THe history </p>
+                    <p className='phrases'>is the futur of humanity"</p>
                     <p><strong>Our conditions...</strong></p>
                 </div>
             </footer>  
