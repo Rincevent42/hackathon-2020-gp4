@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 import '../style/home.css';
+import Footer from '../style/Footer'
 
 
 
@@ -33,7 +34,7 @@ class Home extends Component {
                         />
                     </Carousel.Item>
                 </Carousel>
-
+                  <Footer />
             </div>
 
         );
