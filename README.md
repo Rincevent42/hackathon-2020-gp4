@@ -1,5 +1,30 @@
 # Visite du Metropolitan Museum of Art de New-York
 
+### Wireframe
+
+>Url : https://www.figma.com/file/G5RbwrhJJZhz6gR5JEWlus/Hackathon-G4?node-id=1%3A62
+
+### GitHub
+
+>Url : https://github.com/abdel74100/hackathon-2020-gp4/tree/features/01
+
+### Arborescence du projet
+
+- README.md (ce fichier)
+- src /
+  - components/
+    - Boutons.jsx
+    - [autres composants]
+  - pages/
+    - Home.jsx
+  - styles/
+    - variables.css (le CSS commun du projet avec la palette de couleurs sous forme de variables)
+    - Boutons.css
+    - [styles liés aux composants]
+  - App.js
+
+Nota : d'expérience, il est nécessaire de définir une palette de couleurs que nous allons utiliser pour le projet. Il faut faire un premier commit avec ces couleurs et les composants communs à l'ensemble du projet afin de ne pas bloquer le développement des pages et composants spécifiques.
+
 ### Grandes lignes du projet hackathon
 
 #### Must have
@@ -32,7 +57,8 @@ Seconde page :
 
 
 ### Requêtes vers l'API :
-Url : https://metmuseum.github.io/
+
+>Url : https://metmuseum.github.io/
 
 - Liste des départements 
 ```
