@@ -1,26 +1,24 @@
 import React from 'react';
 import CallApiObject from '../components/CallApiObject';
 
-const objectId = [
-  254779,
-  254801,
-  254923,
-  254842,
-  254843,
-  255949,
-  255973,
-  254825,
-  254819,
-  256846];
+import '../styles/Artwork.css';
 
-// const objectId = 45734;
+class Artwork extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      objectId: this.props.objectId,
+      idx: 0
+    };
+  }
 
-function Artwork (props) {
-  return (
-    <div>
-      <CallApiObject objectId={objectId[1]} />
-    </div>
-  );
+  render () {
+    return (
+      <div className='artwork'>
+        <CallApiObject objectId={this.state.objectId} />
+      </div>
+    );
+  }
 }
 
 export default Artwork;
