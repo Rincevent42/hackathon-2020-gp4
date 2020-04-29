@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import '../styles/CallApiObject.css';
 
 class CallApiObject extends React.Component {
   constructor (props) {
@@ -7,7 +8,7 @@ class CallApiObject extends React.Component {
     this.state = {
       artworkData: [],
       objectId: this.props.objectId
-    };
+    }
   }
 
   componentDidMount () {
@@ -23,8 +24,16 @@ class CallApiObject extends React.Component {
   }
 
   render () {
-    const imageURL = this.state.artworkData.primaryImageSmall;
-    return <img src={imageURL} alt='Artwork' />;
+    const data = this.state.artworkData;
+    return (
+      <div className="artwork">
+        <h1>Gallerie : {data.department}</h1>
+        <h2>{data.title}</h2>
+        <h3>{(data.artistGender === 'Male') ? ('Mr') : ( (data.artistGender === 'Female') ? 'Mrs' : '' ) } {data.artistDisplayName}</h3>
+        <img src={data.primaryImageSmall} alt='Artwork' />
+        <p>{data.medium}</p>
+      </div>
+    );
   }
 }
 

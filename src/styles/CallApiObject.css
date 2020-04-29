@@ -1,0 +1,10 @@
+.artwork {
+  width: 100%;
+  background-color: #F8F8F8;
+  color: #333333;
+  
+}
+
+.artwork img {
+  max-width: 360px ;
+}
