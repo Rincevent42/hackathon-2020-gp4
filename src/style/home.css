@@ -1,0 +1,13 @@
+.w-100{
+height: 800px!important;    
+}
+.titre-home{
+position: absolute;
+z-index: 9999;
+margin: auto;
+color: white;
+top: 40%;
+width: 100%;
+font-size: 70px;
+text-shadow: 2px 2px 4px #000000;
+}
