@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Artwork from './pages/Artwork';
+
+console.log('App.js');
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <p>
-          Welcome on Hackathon 2020
-        </p>
+        <Artwork />
 
       </header>
     </div>
