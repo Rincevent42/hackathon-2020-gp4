@@ -4,10 +4,10 @@ import Artwork from './pages/Artwork';
 
 console.log('App.js');
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className='App'>
+      <header className='App-header'>
 
         <Artwork />
 

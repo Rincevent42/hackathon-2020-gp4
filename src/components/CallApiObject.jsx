@@ -7,7 +7,7 @@ class CallApiObject extends React.Component {
     this.state = {
       artworkData: [],
       objectId: this.props.objectId
-    }
+    };
   }
 
   componentDidMount () {
@@ -19,7 +19,7 @@ class CallApiObject extends React.Component {
       .catch(error => {
         console.log(error);
         alert('Une erreur s\'est produite lors du chargement des données.');
-      })
+      });
   }
 
   render () {
