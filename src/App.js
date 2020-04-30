@@ -10,7 +10,6 @@ import Asian from './components/Asian.jsx';
 import Musical from './components/Musical.jsx';
 import AOA from './components/AOA.jsx';
 import './App.css';
-import Artwork from './pages/Artwork';
 
 /* This table is needed only for test purpose */
 const objectIdTest = [
@@ -28,7 +27,7 @@ const objectIdTest = [
 function App () {
   return (
 
-    <div className="App">
+    <div className='App'>
       <Router>
         <main id='App'>
 
@@ -37,26 +36,24 @@ function App () {
               <Home />
             </Route>
 
-            <Route exact path='/Asian' />
-            <Asian />
-
+            <Route exact path='/Asian'>
+              <Asian />
+            </Route>
             <Route exact path='/European'>
               <European />
             </Route>
 
-            <Route exact path='/Musical' />
-            <Musical />
-
-            <Route exact path='/AOA' />
-            < AOA />
-
-
+            <Route exact path='/Musical'>
+              <Musical />
+            </Route>
+            <Route exact path='/AOA'>
+              <AOA />
+            </Route>
           </Switch>
-        </main >
-      </Router >
-    <Artwork objectId={objectIdTest} />
+        </main>
+      </Router>
 
-    </div >
+    </div>
   );
 }
 

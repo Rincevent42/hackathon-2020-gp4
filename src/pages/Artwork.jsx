@@ -1,5 +1,6 @@
 import React from 'react';
 import CallApiObject from '../components/CallApiObject';
+import Footer from '../components/Footer';
 
 import '../styles/Artwork.css';
 
@@ -16,6 +17,7 @@ class Artwork extends React.Component {
     return (
       <div className='artwork'>
         <CallApiObject objectId={this.state.objectId} />
+        <Footer />
       </div>
     );
   }

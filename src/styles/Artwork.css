@@ -1,5 +1,87 @@
 .artwork {
-  width: 100%;
-  background-color: #F8F8F8;
-  color: #333333;
+width: 100%;
+background-color: #F8F8F8;
+color: #333333;
+}
+
+.header img {
+width: 100%;
+}
+
+#asian-img {
+background-image: url(/static/media/asian-art.3f0ec6fc.png);
+background-repeat: no-repeat;
+background-size: contain;
+height: 500px;
+width: 100%;
+background-position: top;
+background-color: gainsboro;
+}
+
+#musical-img {
+height: 500px;
+width: 100%;
+}
+
+#european-img {
+height: 500px;
+width: 100%;
+}
+
+.return {
+width: 100px;
+background-color: #ffffff9c;
+border: gray solid;
+padding: 15px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 2px 2px;
+cursor: pointer;
+position: absolute;
+left: 5%;
+top: 5%;
+color: black;
+}
+
+@media screen and (max-width:480px) {
+#asian-img {
+background-image: url(/static/media/asian-art.3f0ec6fc.png);
+background-repeat: no-repeat;
+background-size: contain;
+height: 200px;
+background-position: right;
+background-color: gainsboro;
+}
+.return {
+width: 60px;
+background-color: #ffffff9c;
+border: gray solid;
+text-align: center;
+padding: 2px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 2px 2px;
+cursor: pointer;
+position: absolute;
+cursor: pointer;
+position: absolute;
+left: 1%;
+top: 1%;
+color: black;
+
+}
+
+#european-img {
+height: 200px;
+
+}
+
+#musical-img {
+height: 200px;
+
+}
+
 }

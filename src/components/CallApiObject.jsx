@@ -55,11 +55,13 @@ class CallApiObject extends React.Component {
     const data = this.state.artworkData;
     return (
       <div className="call-api-object">
-        <h1>Gallerie : {data.department}</h1>
+        <h1>{data.department} gallerie</h1>
         <h2>{data.title}</h2>
         <h3>{(data.artistGender === 'Male') ? ('Mr') : ((data.artistGender === 'Female') ? 'Mrs' : '')} {data.artistDisplayName}</h3>
         <img src={data.primaryImageSmall} alt='Artwork' />
         <p>{data.medium}</p>
+        <p>{data.period}</p>
+        <a href={data.objectURL} target='_blank'>More details...</a>
         <div className='session-button-container'>
           <Button
             content='<'
