@@ -4,9 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Image, Card } from 'semantic-ui-react'
 import '../style/home.css';
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
-
-
 
 class Home extends Component {
     render() {
