@@ -125,7 +125,7 @@ nav {
 .link-AOA {
     position: absolute;
     width: 20%;
-    left: 8%;
+    left: 5%;
     transform: translateY(60px);
     font-size: 35px;
     list-style-type: none;
@@ -145,7 +145,7 @@ nav {
 .link-European {
     position: absolute;
     width: 20%;
-    left: 73.5%;
+    left: 74%;
     transform: translateY(90px);
     font-size: 35px;
     list-style-type: none;
