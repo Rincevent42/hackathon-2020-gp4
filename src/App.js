@@ -10,8 +10,22 @@ import Asian from './components/Asian.jsx';
 import Musical from './components/Musical.jsx';
 import AOA from './components/AOA.jsx';
 import './App.css';
+import Artwork from './pages/Artwork';
 
-function App() {
+/* This table is needed only for test purpose */
+const objectIdTest = [
+  254779,
+  254801,
+  254923,
+  254842,
+  254843,
+  255949,
+  255973,
+  254825,
+  254819,
+  256846];
+
+function App () {
   return (
 
     <div className="App">
@@ -40,6 +54,7 @@ function App() {
           </Switch>
         </main >
       </Router >
+    <Artwork objectId={objectIdTest} />
 
     </div >
   );
